@@ -69,14 +69,15 @@
 | 权限集 | rights | array[right_fid] |  |  | False |  |  |
 | 删除标志 | delete_flag | Boolean |  |  | True |  |  |
 
-#### 6.权限
+#### 6.功能
 
-表名称：right | 表类型：约束表 | 含义：权限表
+表名称：function | 表类型：约束表 | 含义：功能表
 
 | 字段含义 | 字段名称 | 字段类型 | 长度 | 默认值 | 允许空 | 备注 | 举例 |
 | :--: | :----: | :---: | :--: | :----: | :---: | :--: | :----: |
-| 权限ID | right_id | String |  |  | False |  | "right/12345" |
-| 权限名称 | right_name | String |  |  | False |  |  |
+| 功能ID | function_id | String |  |  | False |  | "function/12345" |
+| 功能名称 | function_name | String |  |  | False |  |  |
+| 功能url | function_url | String |  |  | False |  |  |
 | 删除标志 | delete_flag | Boolean |  |  | True |  |  |
 
 #### 7.商户
@@ -92,6 +93,7 @@
 | 法人身份证 | legal_person_id_card | String |  |  | False |  |  |
 | 营业执照社会统一识别号 | business_license_number | String |  |  | False |  |  |
 | 营业执照图 | business_license_img | String |  |  | False |  |  |
+| 电话号码 | phone_number | String |  |  | True |  |  |
 | 注册时间 | sign_up_date | String |  |  | False |  |  |
 | 商品集 | merchandises | array[merchandise_fid] |  |  | True |  |  |
 | 商品类别集 | couponTypes | array[coupon_type_fid] |  |  | True |  |  |
