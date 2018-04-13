@@ -106,8 +106,8 @@
 
 | 字段含义 | 字段名称 | 字段类型 | 长度 | 默认值 | 允许空 | 备注 | 举例 |
 | :--: | :----: | :---: | :--: | :----: | :---: | :--: | :----: |
-| 类型ID | merchant_id | String |  |  | False |  | "merchant/12345" |
-| 类型名称 | merchant_name | String |  |  | False |  |  |
+| 类型ID | merchant_type_id | String |  |  | False |  | "merchantType/12345" |
+| 类型名称 | merchant_type_name | String |  |  | False |  |  |
 | 删除标志 | delete_flag | Boolean |  |  | True |  |  |
 
 #### 9.商品
