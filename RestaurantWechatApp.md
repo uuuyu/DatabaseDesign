@@ -76,6 +76,7 @@
 | 字段含义 | 字段名称 | 字段类型 | 长度 | 默认值 | 允许空 | 备注 | 举例 |
 | :--: | :----: | :---: | :--: | :----: | :---: | :--: | :----: |
 | 功能ID | function_id | String |  |  | False |  | "function/12345" |
+| 父功能ID | father_function_fid | String |  |  | False |  | "function/12347" |
 | 功能名称 | function_name | String |  |  | False |  |  |
 | 功能url | function_url | String |  |  | False |  |  |
 | 删除标志 | delete_flag | Boolean |  |  | True |  |  |
