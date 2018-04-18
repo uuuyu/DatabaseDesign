@@ -199,7 +199,7 @@
 | :--: | :----: | :---: | :--: | :----: | :---: | :--: | :----: |
 | 订单状态ID | order_status_id | String |  |  | False |  | "orderStatus/12345" |
 | 订单状态名称 | order_status_name | String |  |  | False |  |  |
-| 订单状态编码 | order_status_code | String |  |  | False |  | "complete(已完成),unpaid(等待支付),wait_receive(待收货),expired(已过期),pending(待接单)" |
+| 订单状态编码 | order_status_code | String |  |  | False |  | "0(等待支付),1(待接单),2(已过期),3(待收货),4(已完成)" |
 | 删除标志 | delete_flag | Boolean |  |  | True |  |  |
 
 #### 14.订单类型
