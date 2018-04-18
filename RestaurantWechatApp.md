@@ -180,11 +180,22 @@
 | :--: | :----: | :---: | :--: | :----: | :---: | :--: | :----: |
 | 订单ID | order_id | String |  |  | False |  | "order/12345" |
 | 订单类型 | order_type_fid | String |  |  | False |  |  |
+| 订单状态 | order_status_fid | String |  |  | False |  |  |
 | 消费时间 | used_date | String |  |  | False |  |  |
 | 商品集 | merchandises | array[merchandise_fid] |  |  | False |  |  |
 | 优惠券集 | coupons | array[coupon_fid] |  |  | True |  |  |
 | 应付款 | original_money |  |  |  | False |  |  |
 | 实收款 | paid_money |  |  |  | False |  |  |
+| 删除标志 | delete_flag | Boolean |  |  | True |  |  |
+
+#### 13.1.订单状态
+
+表名称：orderStatus | 表类型：约束表 | 含义：订单状态表
+
+| 字段含义 | 字段名称 | 字段类型 | 长度 | 默认值 | 允许空 | 备注 | 举例 |
+| :--: | :----: | :---: | :--: | :----: | :---: | :--: | :----: |
+| 订单状态ID | order_status_id | String |  |  | False |  | "orderStatus/12345" |
+| 订单状态名称 | order_status_name | String |  |  | False |  |  |
 | 删除标志 | delete_flag | Boolean |  |  | True |  |  |
 
 #### 14.订单类型
