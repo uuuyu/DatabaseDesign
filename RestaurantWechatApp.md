@@ -126,10 +126,12 @@
 | 商品ID | merchandise_id | String |  |  | False |  | "merchandise/12345" |
 | 商品名称 | merchandise_name | String |  |  | False |  |  |
 | 商品类型 | merchandise_type_fid | String |  |  | False |  |  |
+| 商品销售量 | merchandise_sale_volume | Number |  |  | False |  |  |
 | 商品现价 | merchandise_now_price | Number |  |  | False |  |  |
 | 商品原价 | merchandise_old_price | Number |  |  | False |  |  |
 | 商品类型内顺序号 | merchandise_sequence_number | Number |  |  | False |  |  |
 | 包装费用 | package_fee | Number |  |  | False |  |  |
+| 商品缩略图 | merchandise_min_img | array[String] |  |  | False |  |  |
 | 商品图片集 | merchandise_imgs | array[String] |  |  | False |  |  |
 | 商品视频集 | merchandise_videos | array[String] |  |  | False |  |  |
 | 商品详情 | merchandise_detail | String |  |  | False |  |  |
@@ -144,6 +146,7 @@
 | :--: | :----: | :---: | :--: | :----: | :---: | :--: | :----: |
 | 类型ID | merchandise_type_id | String |  |  | False |  | "merchandiseType/12345" |
 | 类型名称 | merchandise_type_name | String |  |  | False |  |  |
+| 类型图标 | merchandise_type_icon | String |  |  | False |  |  |
 | 类型顺序号 | merchandise_type_sequence_number | Number |  |  | False |  |  |
 | 删除标志 | delete_flag | Boolean |  |  | True |  |  |
 
