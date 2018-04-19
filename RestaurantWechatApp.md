@@ -17,6 +17,7 @@
 | 注册时间 | sign_up_date | String |  |  | False |  |  |
 | 角色 | roles | array[role_fid] |  |  | True |  |  |
 | 订单集 | orders | array[order_fid] |  |  | True |  |  |
+| 优惠券集 | coupons | array[coupon_fid] |  |  | True |  |  |
 | 地址集 | addresses | array[address_fid] |  |  | True |  |  |
 | 删除标志 | delete_flag | Boolean |  |  | True |  |  |
 
