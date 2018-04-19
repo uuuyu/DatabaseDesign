@@ -127,13 +127,18 @@
 | 打烊标志 | snoring_flag | Boolean |  |  | False |  |  |
 | 开始营业时间 | open_time | String |  |  | False |  |  |
 | 结束营业时间 | close_time | String |  |  | False |  |  |
+| 外卖打烊标志 | takeaway_snoring_flag | Boolean |  |  | False |  |  |
+| 外卖开始营业时间 | takeaway_open_time | String |  |  | False |  |  |
+| 外卖结束营业时间 | takeaway_close_time | String |  |  | False |  |  |
+| 最低配送金额 | min_takeaway_amount | Number |  |  | False |  |  |
+| 最大配送距离 | max_takeaway_distance | Number |  |  | False |  |  |
 | 商品集 | merchandises | array[merchandise_fid] |  |  | True |  |  |
 | 商品类型集 | couponTypes | array[coupon_type_fid] |  |  | True |  |  |
 | 优惠券集 | coupons | array[coupon_fid] |  |  | True |  |  |
 | 优惠券类型集 | couponTypes | array[coupon_type_fid] |  |  | True |  |  |
 | 订单集 | orders | array[order_fid] |  |  | True |  |  |
 | 席位集 | seats | array[seat_fid] |  |  | True |  |  |
-| 广告集 | adts | array[ad_fid] |  |  | True |  |  |
+| 广告集 | ads | array[ad_fid] |  |  | True |  |  |
 | 删除标志 | delete_flag | Boolean |  |  | True |  |  |
 
 #### 8.商户类型
