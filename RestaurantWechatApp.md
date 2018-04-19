@@ -17,6 +17,17 @@
 | 注册时间 | sign_up_date | String |  |  | False |  |  |
 | 角色 | roles | array[role_fid] |  |  | True |  |  |
 | 订单集 | orders | array[order_fid] |  |  | True |  |  |
+| 地址集 | addresses | array[address_fid] |  |  | True |  |  |
+| 删除标志 | delete_flag | Boolean |  |  | True |  |  |
+
+#### 1.1.地址
+
+表名称：address | 表类型：约束表 | 含义：用户类型表
+
+| 字段含义 | 字段名称 | 字段类型 | 长度 | 默认值 | 允许空 | 备注 | 举例 |
+| :--: | :----: | :---: | :--: | :----: | :---: | :--: | :----: |
+| 地址ID | address_id | String |  |  | False |  | "address/12345" |
+| 地址详情 | address_detail | String |  |  | False |  |  |
 | 删除标志 | delete_flag | Boolean |  |  | True |  |  |
 
 #### 2.用户类型
@@ -188,8 +199,9 @@
 | 消费时间 | used_date | String |  |  | False |  |  |
 | 商品集 | merchandises | array[merchandise_fid] |  |  | False |  |  |
 | 优惠券集 | coupons | array[coupon_fid] |  |  | True |  |  |
-| 应付款 | original_money |  |  |  | False |  |  |
-| 实收款 | paid_money |  |  |  | False |  |  |
+| 应付款 | original_money | Number |  |  | False |  |  |
+| 实收款 | paid_money |  | Number |  | False |  |  |
+| 地址 | address_fid | String |  |  | False |  |  |
 | 删除标志 | delete_flag | Boolean |  |  | True |  |  |
 
 #### 13.1.订单状态
