@@ -22,12 +22,28 @@
 
 #### 1.1.地址
 
-表名称：address | 表类型：约束表 | 含义：用户类型表
+表名称：address | 表类型：约束表 | 含义：地址表
 
 | 字段含义 | 字段名称 | 字段类型 | 长度 | 默认值 | 允许空 | 备注 | 举例 |
 | :--: | :----: | :---: | :--: | :----: | :---: | :--: | :----: |
 | 地址ID | address_id | String |  |  | False |  | "address/12345" |
+| 经度 | longitude | String |  |  | False |  |  |
+| 纬度 | latitude | String |  |  | False |  |  |
+| 省 | region_id | String |  |  | False |  |  |
+| 市 | region_id | String |  |  | False |  |  |
+| 区(县) | region_id | String |  |  | False |  |  |
 | 地址详情 | address_detail | String |  |  | False |  |  |
+| 删除标志 | delete_flag | Boolean |  |  | True |  |  |
+
+#### 1.1.1 地区表
+
+表名称：region | 表类型：约束表 | 含义：地区表
+
+| 字段含义 | 字段名称 | 字段类型 | 长度 | 默认值 | 允许空 | 备注 | 举例 |
+| :--: | :----: | :---: | :--: | :----: | :---: | :--: | :----: |
+| 地区ID | region_id | String |  |  | False |  | "region/12345" |
+| 地区名称 | region_name | String |  |  | False |  | "region/12345" |
+| 父地区ID | region_fid | String |  |  | False |  | "region/12347" |
 | 删除标志 | delete_flag | Boolean |  |  | True |  |  |
 
 #### 2.用户类型
