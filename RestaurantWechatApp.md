@@ -106,6 +106,7 @@
 | 功能ID | function_id | String |  |  | False |  | "function/12345" |
 | 父功能ID | father_function_fid | String |  |  | False |  | "function/12347" |
 | 功能名称 | function_name | String |  |  | False |  |  |
+| 功能编码 | function_code | String |  |  | False |  |  |
 | 功能url | function_url | String |  |  | False |  |  |
 | 删除标志 | delete_flag | Boolean |  |  | True |  |  |
 
