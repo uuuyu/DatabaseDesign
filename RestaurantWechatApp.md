@@ -44,7 +44,7 @@
 | :--: | :----: | :---: | :--: | :----: | :---: | :--: | :----: |
 | 地区ID | region_id | String |  |  | False |  | "region/12345" |
 | 地区名称 | region_name | String |  |  | False |  | "region/12345" |
-| 父地区ID | region_fid | String |  |  | False |  | "region/12347" |
+| 父地区ID | parent_id | String |  |  | False |  | "region/12347" |
 | 删除标志 | delete_flag | Boolean |  |  | True |  |  |
 
 #### 2.用户类型
