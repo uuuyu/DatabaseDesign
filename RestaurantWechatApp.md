@@ -43,7 +43,7 @@
 | 字段含义 | 字段名称 | 字段类型 | 长度 | 默认值 | 允许空 | 备注 | 举例 |
 | :--: | :----: | :---: | :--: | :----: | :---: | :--: | :----: |
 | 地区ID | region_id | String |  |  | False |  | "region/12345" |
-| 地区名称 | region_name | String |  |  | False |  | "region/12345" |
+| 地区名称 | name | String |  |  | False |  | "region/12345" |
 | 父地区ID | parent_id | String |  |  | False |  | "region/12347" |
 | 删除标志 | delete_flag | Boolean |  |  | True |  |  |
 
