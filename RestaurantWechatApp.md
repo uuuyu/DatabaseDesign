@@ -12,7 +12,7 @@
 | 密码 | password | String |  |  | True | Hash(sha256) |  |
 | 姓名 | name | String |  |  | True |  | "张三" |
 | 微信uid | wx_uid | String |  |  | False |  |  |
-| 电话号码 | phone_number | String |  |  | True |  |  |
+| 电话号码 | phone | String |  |  | True |  |  |
 | 邮箱 | email | String |  |  | True |  |  |
 | 注册时间 | sign_up_date | String |  |  | False |  |  |
 | 角色 | roles | array[role_fid] |  |  | True |  |  |
