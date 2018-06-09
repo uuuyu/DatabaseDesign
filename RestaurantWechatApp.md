@@ -19,6 +19,8 @@
 | 订单集 | orders | array[order_fid] |  |  | True |  |  |
 | 优惠券集 | coupons | array[coupon_fid] |  |  | True |  |  |
 | 地址集 | addresses | array[address_fid] |  |  | True |  |  |
+| 身份证 | id_card | String |  |  | True |  |  |
+| 商户集 | merchants | array[merchant_fid] |  |  | True |  |  |
 | 删除标志 | delete_flag | Boolean |  |  | True |  |  |
 
 #### 1.1.地址
@@ -57,7 +59,7 @@
 | 类型名称 | user_type_name | String |  |  | False |  |  |
 | 删除标志 | delete_flag | Boolean |  |  | True |  |  |
 
-#### 3.管理员
+#### 3.管理员--删除
 
 表名称：admin | 表类型：约束表 | 含义：管理员表
 
@@ -77,7 +79,7 @@
 | 商户集 | merchants | array[merchant_fid] |  |  | True |  |  |
 | 删除标志 | delete_flag | Boolean |  |  | True |  |  |
 
-#### 4.管理员类型
+#### 4.管理员类型--删除
 
 表名称：adminType | 表类型：约束表 | 含义：管理员类型表
 
