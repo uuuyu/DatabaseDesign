@@ -136,7 +136,7 @@
 | 最低配送金额 | min_takeaway_amount | Number |  |  | False |  |  |
 | 最大配送距离 | max_takeaway_distance | Number |  |  | False |  |  |
 | 商品集 | merchandises | array[merchandise_fid] |  |  | True |  |  |
-| 商品类型集 | couponTypes | array[coupon_type_fid] |  |  | True |  |  |
+| 商品类型集 | merchandiseType_ids | array[coupon_type_fid] |  |  | True |  |  |
 | 优惠券集 | coupons | array[coupon_fid] |  |  | True |  |  |
 | 优惠券类型集 | couponTypes | array[coupon_type_fid] |  |  | True |  |  |
 | 订单集 | orders | array[order_fid] |  |  | True |  |  |
